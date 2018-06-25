@@ -4,7 +4,7 @@ var userSchema =mongoose.Schema({
     model: String,
     year: Number,
     type: String,
-    features: [String],
+    Features: [String],
     purchaseDate: Date 
 });
-module.exports =mongoose.model('Consumer',userSchema);
+module.exports = mongoose.model('Consumer',userSchema);
